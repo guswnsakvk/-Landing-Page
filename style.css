@@ -1,0 +1,68 @@
+.font-color{
+  color: #fff;
+}
+
+.btn{
+  background-color: dimgrey;
+  padding: 10px;
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landingPage1-bg{
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.landingPage1-title{
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  font-size: 25px;
+}
+
+.landingPage1-info{
+  position: absolute;
+  top: 15%;
+  left: 7%;
+}
+
+.landingPage1-btn{
+  position: absolute;
+  top: 22%;
+  left: 7%;
+}
+
+.iphone{
+  height: 50%;
+  width: 20%;
+  position: absolute;
+  bottom: 23.8%;
+  right: 15%;
+}
+
+.landingPage2{
+  height: 200px;
+  box-sizing: border-box;
+  padding-top: 35px;
+}
+
+.landingPage2-line{
+  width: 700px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.landingPage2-btn{
+  margin: 0 auto;
+}
+
+.landingPage3{
+  background-color: #747bf7;
+  height: 200px;
+}
