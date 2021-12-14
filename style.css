@@ -99,7 +99,8 @@
 
 .landingPage3-icon div{
   font-size: 36px;
-  vertical-align: middle;
+  padding-top: 7px;
+  box-sizing: border-box;
 }
 
 .big-icon{
