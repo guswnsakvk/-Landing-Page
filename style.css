@@ -13,7 +13,11 @@
 }
 
 .font-big{
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.font-br{
+  margin-bottom: 15px;
 }
 
 .landingPage1{
@@ -45,8 +49,8 @@
 }
 
 .iphone{
-  height: 50%;
-  width: 20%;
+  height: 70%;
+  width: 25%;
   position: absolute;
   bottom: 0;
   right: 15%;
@@ -87,7 +91,7 @@
 
 .landingPage3-icons{
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
   height: 150px;
   display: flex;
 }
@@ -95,6 +99,10 @@
 .landingPage3-icon{
   margin-top: 20px;
   width: 25%;
+}
+
+.landingPage3-icon p{
+  margin-top: 5px;
 }
 
 .landingPage3-icon div{
@@ -108,4 +116,17 @@
   height: 50px;
   border-radius: 25px;
   background-color: #fff;
+}
+
+.landingPage4{
+  height: 200px;
+  box-sizing: border-box;
+  padding-top: 35px;
+}
+
+.landingPage4-line{
+  width: 700px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
 }
