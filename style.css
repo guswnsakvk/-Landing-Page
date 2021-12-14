@@ -16,13 +16,31 @@
   font-size: 20px;
 }
 
+.font-small{
+  font-size: 12px;
+}
+
 .font-br{
   margin-bottom: 15px;
+}
+
+.event-box{
+  width: 45%;
+  height: 40%;
+  position: absolute;
+  transition: all .5s;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.event-box:hover{
+  border: 15px solid #fff;
 }
 
 .landingPage1{
   height: 500px;
   position: relative;
+  background-image: linear-gradient(rgb(74, 132, 240), #747bf7);
 }
 
 .landingPage1-bg{
@@ -119,7 +137,7 @@
 }
 
 .landingPage4{
-  height: 200px;
+  height: 120px;
   box-sizing: border-box;
   padding-top: 35px;
 }
@@ -129,4 +147,93 @@
   height: 100px;
   margin: 0 auto;
   text-align: center;
+}
+
+.landingPage5{
+  width: 900px;
+  height: 500px;
+  background-color: red;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.landingPage5-bg{
+  width: 50%;
+  height: 50%;
+}
+
+.landingPage5-bg p{
+  position: absolute;
+}
+
+.landingPage5-1{
+  background-image: url("./img/portfolio-1.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .5);
+  background-blend-mode: multiply;
+}
+
+.landingPage5-1 p:first-child{
+  top: 10%;
+  left: 4%;
+}
+
+.landingPage5-1 p:last-child{
+  top: 20%;
+  left: 4%;
+}
+
+.landingPage5-2{
+  background-image: url("./img/portfolio-2.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.landingPage5-2 p:first-child{
+  top: 10%;
+  left: 54%;
+}
+
+.landingPage5-2 p:last-child{
+  top: 20%;
+  left: 54%;
+}
+
+.landingPage5-3{
+  background-image: url("./img/portfolio-3.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.landingPage5-3 p:first-child{
+  top: 60%;
+  left: 4%;
+}
+
+.landingPage5-3 p:last-child{
+  top: 70%;
+  left: 4%;
+}
+
+.landingPage5-4{
+  background-image: url("./img/portfolio-4.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.landingPage5-4 p:first-child{
+  top: 60%;
+  left: 54%;
+}
+
+.landingPage5-4 p:last-child{
+  top: 70%;
+  left: 54%;
 }
